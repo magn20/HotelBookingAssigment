@@ -1,0 +1,6 @@
+
+Wcsharpsquid:S65626"5Provide the "DateTimeKind" when creating this object.(¥Ú¼üÿÿÿÿ
+Acsharpsquid:S2933
+"$Make 'bookingRepository' 'readonly'.(°œË¿
+>csharpsquid:S2933"!Make 'bookingManager' 'readonly'.(±ÍÏ
+kcsharpsquid:S66027"N"Find" method should be used instead of the "FirstOrDefault" extension method.(ùÌîô
