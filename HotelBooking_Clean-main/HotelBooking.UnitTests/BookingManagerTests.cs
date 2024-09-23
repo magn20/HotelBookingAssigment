@@ -29,13 +29,14 @@ namespace HotelBooking.UnitTests
             mockRoomRepo = new Mock<IRepository<Room>>();
 
             
-            //setup default fake data for Mocked repo
+            //default fake data for Mocked repo
             var rooms = new List<Room>
             {
             new Room {Id = 1, Description = "1"},
             new Room {Id = 2, Description = "2"},
             };
 
+            //setup for mockRepo's
             mockRoomRepo.Setup(x => x.GetAll()).Returns(rooms);
 
             mockRoomRepo.Setup(x => x.Get(1)).Returns(rooms[0]);
